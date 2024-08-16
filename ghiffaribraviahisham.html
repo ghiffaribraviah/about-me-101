@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ghiffari Bravia Hisham</title>
+    <link rel="stylesheet" href="pi60.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="header-sec container" id="profile">
+      <nav>
+        <a href="pi60.html"><img src="image/icons/icon-logo.png" class="logo-icon"></a>
+        <div class="nav-links" id="navLinks">
+          <img src="image/icons/icon-close.png" class="close-icon" onclick="hideMenu()">
+          <ul>
+            <li><a href="#profile" onclick="hideMenu()">Home</a></li>
+            <li><a href="#experience" onclick="hideMenu()">Experience</a></li>
+            <li><a href="#contact" onclick="hideMenu()">Contact</a></li>
+          </ul>
+        </div>
+        <img src="image/icons/icon-sidebar.png" class="sidebar-icon" onclick="showMenu()">
+      </nav>
+      <div class="profile-box">
+        <div class="profile-text-box">
+          <h1>Hi, I'm Bravi!</h1>
+          <p>An undergraduate Computer Science student in IPB University. As a passionate learner, my dream is to be skilled in everything, especially in every aspect of IT.</p>
+        </div>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=89WnU9TRaSCuFaDi" target="_blank" class="profile-photo"><img src="image/profile/profile-photo.png" style="width: 100%;"></a>
+      </div>
+      </section>
+
+
+    <section class="experience-sec container" id="experience">
+      <div class="experience-maintext-box">
+        <h1>Experience</h1>
+      </div>
+      <div class="experience-content-box">
+        <div class="experience-content">
+          <img src="image/experience/exp-stm-pc.png" class="content-image img-pc">
+          <img src="image/experience/exp-stm-mbl.png" class="content-image img-mobile">
+          <div class="content-image-text">STEM 2023</div>
+
+        </div>
+        <div class="experience-content">
+          <img src="image/experience/exp-pgc-pc.png" class="content-image img-pc">
+          <img src="image/experience/exp-pgc-mbl.png" class="content-image img-mobile">
+          <div class="content-image-text">Panti Goceng Batch 5</div>
+          
+        </div>
+        <div class="experience-content">
+          <img src="image/experience/exp-itt-pc.png" class="content-image img-pc">
+          <img src="image/experience/exp-itt-mbl.png" class="content-image img-mobile">
+          <div class="content-image-text">IT Today 2024</div>
+          
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="ending-sec" id="contact">
+      <div class="contact-box">
+        <h1>Contact Me!</h1>
+        <div class="contact-button-box">
+          <a href="https://www.instagram.com/hoohkun/" target="_blank"><img src="image/icons/icon-instagram.png" class="social-icon"></a>
+          <a href="https://www.linkedin.com/in/ghiffari-bravia-hisham-663b41283/" target="_blank"><img src="image/icons/icon-linkedin.png" class="social-icon"></a>
+          <a href="https://github.com/ghiffaribraviah" target="_blank"><img src="image/icons/icon-github.png" class="social-icon"></a>
+        </div>
+      </div>
+      <div class="footer">
+        <h>Made by Ghiffari Bravia Hisham <br> Website for PI 60 Assignment</h>
+      </div>
+
+    </section>
+
+
+    <!-- Javascript for Website -->
+    <script>
+
+      var navLinks = document.getElementById("navLinks"); 
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
+  </body>
+</html>
